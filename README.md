@@ -11,3 +11,10 @@ For this project, you'll be working with one dataset:``` event_data```. The dire
 event_data/2018-11-08-events.csv
 event_data/2018-11-09-events.csv
 ```
+## Project Process
+1. Design tables to answer the queries outlined in the project template
+2. Write Apache Cassandra ``CREATE KEYSPACE`` and ``SET KEYSPACE`` statements
+3. Develop your ``CREATE`` statement for each of the tables to address each question
+4. Load the data with ``INSERT`` statement for each of the tables
+5. Write ``DROP TABLE`` statement for each table, so that you can run drop and create tables whenever you want to reset your database and test your ETL pipeline
+6. Test by running the proper select statements with the correct ``WHERE`` clause
